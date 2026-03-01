@@ -1,0 +1,74 @@
+.feature-popup {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  width: 320px;
+  max-height: 400px;
+  background: #16213e;
+  border: 1px solid #0f3460;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid #0f3460;
+}
+
+.popup-header h3 {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #e94560;
+}
+
+.popup-close {
+  background: none;
+  border: none;
+  color: #8899aa;
+  font-size: 1.3rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.popup-close:hover {
+  color: #e0e0e0;
+}
+
+.popup-body {
+  padding: 12px 16px;
+  overflow-y: auto;
+}
+
+.geom-badge {
+  display: inline-block;
+  background: #0f3460;
+  color: #3498db;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  margin-bottom: 10px;
+}
+
+.popup-body table {
+  width: 100%;
+  font-size: 0.82rem;
+}
+
+.pk {
+  color: #8899aa;
+  padding: 3px 10px 3px 0;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+.pv {
+  color: #ccd;
+  word-break: break-all;
+}
