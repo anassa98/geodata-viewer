@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/geodata-viewer/static/css/main.330d122c.css",
-    "main.js": "/geodata-viewer/static/js/main.9b3e4f67.js",
+    "main.css": "/geodata-viewer/static/css/main.84fba2ac.css",
+    "main.js": "/geodata-viewer/static/js/main.6345ff02.js",
     "index.html": "/geodata-viewer/index.html",
-    "main.330d122c.css.map": "/geodata-viewer/static/css/main.330d122c.css.map",
-    "main.9b3e4f67.js.map": "/geodata-viewer/static/js/main.9b3e4f67.js.map"
+    "main.84fba2ac.css.map": "/geodata-viewer/static/css/main.84fba2ac.css.map",
+    "main.6345ff02.js.map": "/geodata-viewer/static/js/main.6345ff02.js.map"
   },
   "entrypoints": [
-    "static/css/main.330d122c.css",
-    "static/js/main.9b3e4f67.js"
+    "static/css/main.84fba2ac.css",
+    "static/js/main.6345ff02.js"
   ]
 }
